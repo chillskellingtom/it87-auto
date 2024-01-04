@@ -1,7 +1,7 @@
 # Gigabyte z790 Sensor Setup - it87-auto
 Installation script for it87 drivers compatible with Gigabyte Motherboards. 
 
-After countless re-installs of a [[Proxmox]] node running a Gigabyte Aorus z790 Xtreme DDR4 motherboard, the below script automates the addition of the patched Linux drivers thanks to [frankcrawford](https://github.com/frankcrawford/it87), [hannesha](https://github.com/hannesha/it87), and original repo from [a1wong](https://github.com/a1wong/it87).
+After countless re-installs of a Proxmox node running a Gigabyte Aorus z790 Xtreme DDR4 motherboard, the below script automates the addition of the patched Linux drivers thanks to [frankcrawford](https://github.com/frankcrawford/it87), [hannesha](https://github.com/hannesha/it87), and original repo from [a1wong](https://github.com/a1wong/it87).
 
 ## Script Purpose
 The script `setup_sensors.sh` automates the installation of sensor monitoring tools and drivers, specifically targeting the Gigabyte Z790 motherboard. It performs the following tasks:
