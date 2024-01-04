@@ -3,7 +3,7 @@ Installation script for it87 drivers compatible with Gigabyte Motherboards on Li
 
 After countless re-installs of a Proxmox node running a Gigabyte Aorus z790 Xtreme DDR4 motherboard, the below script automates the addition of the patched Linux drivers thanks to [frankcrawford](https://github.com/frankcrawford/it87), [hannesha](https://github.com/hannesha/it87), and original repo from [a1wong](https://github.com/a1wong/it87).
 
-## Script Purpose
+## Aim
 The script `setup_sensors.sh` automates the installation of sensor monitoring tools and drivers, specifically targeting the Gigabyte Z790 motherboard. It performs the following tasks:
 1. Installs the `lm-sensors` package for hardware sensor monitoring.
 2. Automatically detects available sensors on the motherboard.
@@ -22,6 +22,7 @@ The script `setup_sensors.sh` automates the installation of sensor monitoring to
 
 ## Script Execution
 1. Download or create the script `setup_sensors.sh` on your Proxmox node.
+
 2. Make the script executable:
 
 sudo chmod +x ./setup_sensors.sh
